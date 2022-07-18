@@ -130,7 +130,7 @@ a {
 .banner-img {
     width: 98.5vw;
     height: 65vh;
-    background-image: url(/banner-1.jpg);
+    background-image: url(banner-1.jpg);
     background-repeat: no-repeat;
     background-position: 20% 0%;
     display: flex;
