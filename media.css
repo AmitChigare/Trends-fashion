@@ -1,0 +1,37 @@
+@media(max-width: 770px) {
+    #carouselExampleInterval {
+        width: 80%;
+    }
+
+    .discount {
+        flex-direction: column;
+    }
+
+    .discount-countdown {
+        width: 100%;
+    }
+
+    .discount-photo {
+        width: 100%;
+    }
+
+    .instagram-img-session img {
+        width: 10rem;
+        height: 15rem;
+    }
+}
+
+@media(max-width: 440px) {
+    #carouselExampleInterval {
+        width: 90%;
+    }
+
+    .banner-img {
+        height: 55vh;
+    }
+
+    .instagram-img-session img {
+        width: 7rem;
+        height: 10rem;
+    }
+}
