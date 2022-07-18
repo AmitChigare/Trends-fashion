@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Cookie&display=swap');
-;
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
 
 ::-moz-selection {
     background-color: #fd7e14;
@@ -32,7 +32,7 @@ body {
 }
 
 .fashion-text {
-    font-family: 'Bollinsh Hunt Personal Use Only', sans-serif;
+    font-family: 'Yesteryear', cursive;
     /* font-family: 'Cookie', cursive; */
 }
 
@@ -132,7 +132,7 @@ a {
     height: 65vh;
     background-image: url(banner-1.jpg);
     background-repeat: no-repeat;
-    background-position: 20% 0%;
+    background-position: 25% 0%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -151,41 +151,10 @@ a {
 }
 
 .carousel-item img {
-    /* width: 5000px; */
-    height: 500px;
+    width: 90%;
+    /* height: 35rem; */
 }
 
-/* .carousel-control-prev-icon {
-    color: black;
-} */
-
-@media only screen and (max-width: 770px) {
-    #carouselExampleInterval {
-        width: 80%;
-    }
-
-    .discount {
-        flex-direction: column;
-    }
-
-    .discount-countdown {
-        width: 100%;
-    }
-
-    .discount-photo {
-        width: 100%;
-    }
-}
-
-@media only screen and (max-width: 425px) {
-    #carouselExampleInterval {
-        width: 90%;
-    }
-
-    .banner-img {
-        height: 55vh;
-    }
-}
 
 
 .product-card {
@@ -193,6 +162,11 @@ a {
     text-align: center;
     box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.116);
     position: relative;
+}
+
+.product-card img {
+    width: 95%;
+    align-self: center;
 }
 
 .text-bold {
@@ -210,6 +184,10 @@ a {
 
 .card-img-top {
     border-bottom: solid 4px #fd7e14;
+}
+
+.modal-content {
+    width: 80%;
 }
 
 .discount {
@@ -234,7 +212,7 @@ a {
     align-items: center;
     position: relative;
     background-color: hsla(0, 0%, 50%, 0.2);
-    padding: 3rem;
+    padding: .5rem;
 }
 
 .countdown-timer {
@@ -277,19 +255,6 @@ a {
     font-weight: 500;
 }
 
-@media only screen and (max-width: 770px) {
-    .discount {
-        flex-direction: column;
-    }
-
-    .discount-countdown {
-        width: 100%;
-    }
-
-    .discount-photo {
-        width: 100%;
-    }
-}
 
 .my-flex {
     display: flex;
@@ -310,9 +275,10 @@ a {
 }
 
 .benefits-session i {
-    color: #198754;
+    color: #fd7e14;
     font-weight: 700;
     font-size: 2.5rem;
+    cursor: default;
 }
 
 .benefits-session p, .benefits-session h4 {
@@ -322,6 +288,22 @@ a {
 
 .benefits-session h4 {
     font-weight: 700;
+}
+
+.instagram-img-session img {
+    width: 15rem;
+    height: 25rem;
+}
+
+/* .insta-hover-photos {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+} */
+
+.instagram-img-session img:hover {
+    filter: brightness(1.2);
 }
 
 .footer {
@@ -338,4 +320,17 @@ a {
     margin: 0;
     padding: 0;
     margin-top: -1.5rem;
+}
+
+.footer__payment {
+    display: flex;
+    gap: 1rem;
+}
+
+.footer__social i {
+    border-radius: 50%;
+    font-size: 1rem;
+    background-color: #69696934;
+    padding: .5rem;
+    transition: all .2s;
 }
